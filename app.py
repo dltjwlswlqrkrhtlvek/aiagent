@@ -16,7 +16,7 @@ st.write(' - 테스트 데이터 : 30,000건')
 st.write(' - 인공지능 모델 정확도 : 0.08')
 
 # 3. 데이터시각화
-col1, col2 = st.columns(=)  
+col1, col2 = st.columns(2)  
 with col1:
       st.subheader('데이터시각화1')
       st.image('시각화1.png' )   # 이미지 불러오기
