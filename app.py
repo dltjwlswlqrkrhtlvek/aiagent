@@ -7,7 +7,7 @@ import joblib
 model = joblib.load('linear_regression_model.pkl')
 
 # 2. 모델 설명
- st.title('불면증 발병 위험 판독 에이전트')
+st.title('불면증 발병 위험 판독 에이전트')
 st.subheader('모델 설명')
 st.write(' - 기계학습 알고리즘 : linear_regression ')
 st.write(' - 학습 데이터 출처 : https://www.kaggle.com/')
